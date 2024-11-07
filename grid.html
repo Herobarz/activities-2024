@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/c72dd798a1.js" crossorigin="anonymous"></script>
+    <!-- font awesome cdnjs -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <title>Grid System</title>
+</head>
+
+<body>
+    <h1 class="center red-text text-lighten-2"> Grid </h1>
+    <div class="divider"></div>
+    <br><br>
+    
+    <div class="container">
+        <h3 class="red-text text-lighten-2">Container</h3>
+        <p>The container class is not strictly part of the grid but is important in laying out content.
+        It allows you to center your page content. The container class is set to ~70% of the window width. 
+        It helps you center and contain your page content. We use the container to contain our body content.</p>
+
+        <h3 class="red-text text-lighten-2">Introduction</h3>
+        <p>Take a look at this section to quickly understand how the grid works!
+
+            
+        <h5>12 Columns </h5> 
+            
+        <p> Our standard grid has 12 columns. No matter the size of the browser, 
+            each of these columns will always have an equal width.</p>
+
+        <div class="row red lighten-4">
+            <div class="col s1">1</div>
+            <div class="col s1">2</div>
+            <div class="col s1">3</div>
+            <div class="col s1">4</div>
+            <div class="col s1">5</div>
+            <div class="col s1">6</div>
+            <div class="col s1">7</div>
+            <div class="col s1">8</div>
+            <div class="col s1">9</div>
+            <div class="col s1">10</div>
+            <div class="col s1">11</div>
+            <div class="col s1">12</div>
+        </div>
+
+        <h5>Columns live inside Rows</h5> 
+            
+        <p>Remember when you are creating your layout that all columns must be contained inside a row 
+            and that you must add the col class to your inner divs to make them into columns</p>
+
+
+        <div class="row">
+            <div class="col s12 red lighten-4">This div is 12-columns wide on all screen sizes</div>
+            <br><br>
+            <div class="col s6 red lighten-4">6-columns (one-half)</div>
+            <div class="col s6 red lighten-4">6-columns (one-half)</div>
+        </div>
+
+    </div>
+    
+    
+    <div style="height: 1000px"> </div>
+
+</body>
+</html>
